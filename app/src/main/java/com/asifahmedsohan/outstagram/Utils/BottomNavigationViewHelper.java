@@ -5,17 +5,15 @@ import android.content.Context;
 import android.content.Intent;
 import android.util.Log;
 import android.view.MenuItem;
-import android.view.View;
 
 import androidx.annotation.NonNull;
-import androidx.viewpager.widget.ViewPager;
 
-import com.asifahmedsohan.outstagram.LikesActivity;
-import com.asifahmedsohan.outstagram.MainActivity;
-import com.asifahmedsohan.outstagram.ProfileActivity;
+import com.asifahmedsohan.outstagram.Likes.LikesActivity;
+import com.asifahmedsohan.outstagram.Home.MainActivity;
+import com.asifahmedsohan.outstagram.Profile.ProfileActivity;
 import com.asifahmedsohan.outstagram.R;
-import com.asifahmedsohan.outstagram.SearchActivity;
-import com.asifahmedsohan.outstagram.ShareActivity;
+import com.asifahmedsohan.outstagram.Search.SearchActivity;
+import com.asifahmedsohan.outstagram.Share.ShareActivity;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
 

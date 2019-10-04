@@ -1,4 +1,6 @@
-package com.asifahmedsohan.outstagram;
+package com.asifahmedsohan.outstagram.Home;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -6,23 +8,22 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
-
+import com.asifahmedsohan.outstagram.R;
 import com.asifahmedsohan.outstagram.Utils.BottomNavigationViewHelper;
 import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
 
-public class SearchActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {
 
-    private static final String TAG = "SearchActivity";
-    private Context mContext = SearchActivity.this;
-    private static final int ACTIVITY_NUM = 1;
+    private static final String TAG = "MainActivity";
+    private Context mContext = MainActivity.this;
+    private static final int ACTIVITY_NUM = 0;
 
     @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Log.d(TAG, "onCreate: Started");
+        Log.d(TAG, "onCreate: starting");
+
         setupBottomNavigationView();
     }
 

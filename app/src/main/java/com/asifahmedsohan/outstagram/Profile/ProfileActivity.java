@@ -1,4 +1,4 @@
-package com.asifahmedsohan.outstagram;
+package com.asifahmedsohan.outstagram.Profile;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -9,14 +9,15 @@ import android.view.MenuItem;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.asifahmedsohan.outstagram.R;
 import com.asifahmedsohan.outstagram.Utils.BottomNavigationViewHelper;
 import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
 
-public class LikesActivity extends AppCompatActivity {
+public class ProfileActivity extends AppCompatActivity {
 
-    private static final String TAG = "LikesActivity";
-    private Context mContext = LikesActivity.this;
-    private static final int ACTIVITY_NUM = 3;
+    private static final String TAG = "ProfileActivity";
+    private Context mContext = ProfileActivity.this;
+    private static final int ACTIVITY_NUM = 4;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
