@@ -8,6 +8,8 @@
         android:layout_height="match_parent">
 
         <include layout="@layout/snipper_top_profilebar"/>
+        <include layout="@layout/layout_bottom_navigation_view"/>
+
     </RelativeLayout>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
