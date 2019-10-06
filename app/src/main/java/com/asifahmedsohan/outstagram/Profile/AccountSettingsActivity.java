@@ -3,7 +3,9 @@ package com.asifahmedsohan.outstagram.Profile;
 import android.content.Context;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.ListView;
 
 import androidx.annotation.Nullable;
@@ -29,6 +31,16 @@ public class AccountSettingsActivity extends AppCompatActivity {
         Log.d(TAG, "onCreate: Started");
 
         setUpSettigngsList();
+
+        //set up back arrow for navigating back to profile
+        ImageView backArrow = (ImageView)findViewById(R.id.backArrow);
+        backArrow.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Log.d(TAG, "onClick: Navigating back to profile activity");
+                finish();
+            }
+        });
     }
 
     private void setUpSettigngsList(){
