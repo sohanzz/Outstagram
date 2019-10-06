@@ -1,4 +1,4 @@
-package com.asifahmedsohan.outstagram.Home;
+package com.asifahmedsohan.outstagram.Utils;
 
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;

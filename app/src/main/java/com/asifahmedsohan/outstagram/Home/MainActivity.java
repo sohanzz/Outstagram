@@ -11,6 +11,7 @@ import android.view.MenuItem;
 
 import com.asifahmedsohan.outstagram.R;
 import com.asifahmedsohan.outstagram.Utils.BottomNavigationViewHelper;
+import com.asifahmedsohan.outstagram.Utils.SectionPagerAdapter;
 import com.google.android.material.tabs.TabLayout;
 import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
 
